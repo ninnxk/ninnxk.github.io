@@ -1,0 +1,19 @@
+#snippetcolor1,#snippetcolor2,#snippetcolor3,#snippetcolor4{
+    color:#45b6fe
+}
+
+#Profile{
+    margin-left: auto;
+    padding:30px;
+    border:#9DCAEB solid 5px;    
+    border-left:#9DCAEB  solid 12px;
+    border-radius: 10px;
+}
+a{
+    color:#1f73a8;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#45b6fe; ;
+  }
