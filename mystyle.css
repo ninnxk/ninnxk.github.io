@@ -44,8 +44,10 @@ a {
 #activities {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
+    row-gap:    150px;
     place-items: center;
     margin-bottom: 150px;
 }
