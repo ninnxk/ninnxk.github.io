@@ -6,10 +6,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="mystyle.css">
+    
 </head>
 
 <body>
     <script src="js/bootstrap.min.js"></script>
+
+    <div id="top"></div>
+
     <div class=" sticky-top bg-white">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
@@ -19,18 +23,17 @@
                 <span class="fs-4">Nin's Portfolio</span>
             </a>
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#Profile" class="nav-link active" aria-current="page"
+                <li class="nav-item"><a href="#top" class="nav-link active" aria-current="page"
                         style="background-color:#45b6fe;">Profile</a></li>
-                <li class="nav-item"><a href="#" class="nav-link" id="snippetcolor1">Project</a></li>
-                <li class="nav-item"><a href="#" class="nav-link" id="snippetcolor2">Activities</a></li>
-                <li class="nav-item"><a href="#" class="nav-link" id="snippetcolor2">Certificates</a></li>
+                <li class="nav-item"><a href="#project" class="nav-link" id="snippetcolor1">Project</a></li>
+                <li class="nav-item"><a href="#activities" class="nav-link" id="snippetcolor2">Activities</a></li>
             </ul>
         </header>
     </div>
 
-    <div class="container mt-5" >
-    <div class="row align-items-center">
-
+  <div class="container">
+    <div class="row alignitems-center">
+  
       <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" style="width: 40%; height:auto;">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
@@ -58,9 +61,11 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>  
-      
-        <div class="col-md-6 col-12" id="Profile">
+      </div>    
+
+      <div class="col-md-6 col-12" id="profile" >
+
+        <div id="my">
           นางสาวญาณินท์ ลิน (นิน)<br>
           วันเกิด: 30/05/2008 อายุ: 17<br>
           แผนการเรียนวิทยาศาสตร์-คณิตศาสตร์<br>
@@ -70,13 +75,60 @@
           Phone: <a href="tel:+66875110988">0875110988</a><br>
           Email: <a href="mailto:yaninlin93@gmail.com">yaninlin93@gmail.com</a><br>
         </div>
+
+        <div class="mt-5" id="testscore">
           
+          <div>
+            <b>SAT xxxx/1600</b><br>
+            Verbal xxx/800<br>
+            Math xxx/800<br><br>
+            <b>TGAT TPAT</b>
+          </div>
+
+          <div>
+            <b>ENG</b>
+          </div>
+          
+          <div>
+            <b>HSK 6 250/300</b><br>
+            Listening 78/100<br>
+            Reading 86/100<br>
+            Writing 86/100<br><br>
+            <b>HSKK Advanced</b><br>
+            Speaking 53/100
+          </div>
+        
+        </div>
+
+      </div>
 
     </div>
   </div>
-  
 
-</body>
-</html>
+  <div class="container" id="project">
+  </div>
+
+  
+  <div class="container">
+    <h3>Activities</h3>
+
+    <div id="activities">
+      <div>
+        <a id="bt1" href="activities1.html">Computer & Engineering >>> </a>
+       
+      </div> 
+      <div>
+        <a id="bt2" href="activities2.html">Health Science >>> </a>
+      </div> 
+      <div>
+        <a id="bt3" href="activities3.html">Science & Mathematics >>> </a>
+      </div> 
+      <div>
+        <a id="bt4" href="activities4.html">Other Activities >>> </a>
+      </div> 
+    </div>
+  </div>
+  
+  
 </body>
 </html>

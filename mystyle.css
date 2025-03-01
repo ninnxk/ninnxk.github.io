@@ -1,19 +1,94 @@
-#snippetcolor1,#snippetcolor2,#snippetcolor3,#snippetcolor4{
-    color:#45b6fe
+#snippetcolor1,
+#snippetcolor2 {
+    color: #45b6fe
 }
 
-#Profile{
+#profile {
     margin-left: auto;
-    padding:30px;
-    border:#9DCAEB solid 5px;    
-    border-left:#9DCAEB  solid 12px;
-    border-radius: 10px;
+    margin-bottom: 100px;
 }
-a{
-    color:#1f73a8;
+
+#my {
+    padding: 30px;
+    border: #9DCAEB solid 5px;
+    border-left: #9DCAEB solid 12px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+a {
     text-decoration: none;
 }
 
-a:hover{
-    color:#45b6fe; ;
-  }
+#my a {
+    color: #1f73a8;
+}
+
+#my a:hover {
+    color: #45b6fe;
+}
+
+#testscore {
+    padding: 30px;
+    border: #76baea solid 5px;
+    border-left: #76baea solid 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+
+#activities {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    place-items: center;
+    margin-bottom: 150px;
+}
+
+#activities a{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#bt1 {
+    border: solid 5px #72242B;
+}
+
+#bt1:hover {
+    background-color:#72242B;
+    color: white;
+}
+
+#bt2 {
+    border: solid 5px #016301;
+}
+
+#bt2:hover {
+    background-color:#016301;
+    color: white;
+}
+
+#bt3 {
+    border: solid 5px #e8b708;
+}
+
+#bt3:hover {
+    background-color:#e8b708;
+    color: white;
+}
+
+#bt4 {
+    border: solid 5px #31629d;
+}
+
+#bt4:hover {
+    background-color:#31629d;
+    color: white;
+}
