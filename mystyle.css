@@ -3,6 +3,69 @@
     color: #45b6fe
 }
 
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.dotcontainer {
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot {
+    height: 5px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 25%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot:hover {
+    background-color: #535252;
+}
+.activedot {
+    background-color: #7c7c7c;
+}
+
+
+#pfslideshow{
+    position: relative;
+    width: 40%;
+    height: 650px;
+}
+
+.slidephoto2 {
+    display: none;
+}
+
+.slidephoto2 img{
+    width:100%; 
+    height:650px; 
+    object-fit:cover;
+}
+
 #profile {
     margin-left: auto;
     margin-bottom: 100px;
@@ -44,15 +107,24 @@ a {
 #activities {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
-    row-gap:    150px;
-    place-items: center;
+    row-gap: 150px;
     margin-bottom: 150px;
+    text-align: center; 
+    font-size: larger;
 }
 
-#activities a{
+.activitypt {
+    align-self: center;
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+    margin-bottom:40px;
+}
+
+#activities a {
     color: black;
     background-color: white;
     padding: 10px;
@@ -64,7 +136,7 @@ a {
 }
 
 #bt1:hover {
-    background-color:#72242B;
+    background-color: #72242B;
     color: white;
 }
 
@@ -73,7 +145,7 @@ a {
 }
 
 #bt2:hover {
-    background-color:#016301;
+    background-color: #016301;
     color: white;
 }
 
@@ -82,7 +154,7 @@ a {
 }
 
 #bt3:hover {
-    background-color:#e8b708;
+    background-color: #e8b708;
     color: white;
 }
 
@@ -91,6 +163,22 @@ a {
 }
 
 #bt4:hover {
-    background-color:#31629d;
+    background-color: #31629d;
     color: white;
 }
+
+#slideshow1 {
+    position: relative;
+    width: 40%;
+    margin: 5%;
+}
+
+.slidephoto1 {
+    display: none;
+}
+
+.slidephoto1 img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
